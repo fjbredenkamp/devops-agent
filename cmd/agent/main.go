@@ -13,7 +13,7 @@ import (
 
 func main() {
 	fmt.Println("╔══════════════════════════════════════╗")
-	fmt.Println("║     DevOps Agent  (Opus 4.5)         ║")
+	fmt.Println("║    DevOps Agent  (Sonnet 4.6)        ║")
 	fmt.Println("╚══════════════════════════════════════╝")
 	fmt.Println()
 

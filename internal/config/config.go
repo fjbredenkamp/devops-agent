@@ -27,7 +27,7 @@ func Load() (*Config, error) {
 
 	model := anthropic.Model(os.Getenv("AGENT_MODEL"))
 	if model == "" {
-		model = anthropic.ModelClaudeOpus4_5 // Default to Opus 4.5
+		model = anthropic.ModelClaudeSonnet4_6 // Default to Sonnet 4.6
 	}
 
 	workDir := os.Getenv("AGENT_WORKING_DIR")
